@@ -1,0 +1,65 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>softzone task</title>
+    <link rel="shortcut icon" href="WhatsApp Image 2024-10-16 at 22.41.09_9366d1e9.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">  
+</head>
+
+ <body>
+    <header>
+        <nav>
+            <h1>Manage Employees</h1>
+            <div class="btn-nav">
+             <button class="del-btn">Delete</button>
+            <button class="add-btn" id="showFormBtn">Add new Employee</button>    
+            </div>           
+        </nav>
+    </header>
+
+    <div class="container">
+        <form action="#" id="addform" style="display: none;">
+            <h2 id="formTitle">Add Employee</h2>
+            <input type="text" id="id" placeholder="Id" required>
+            <input type="text" id="name" placeholder="Name" required>
+            <input type="email" id="email" placeholder="Email" required>
+            <input type="text" id="address" placeholder="Address" required>
+            <input type="tel" id="phone" placeholder="phone" required>
+             <button  id="cancelBtn">Cancel</button>
+            <button type="submit" id="submitBtn">Add</button>
+        </form>
+      
+        <table>
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Address</th>
+                    <th>Phone</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody id="employeeTable">
+            </tbody>
+        </table>
+    </div>
+
+
+
+
+    <script src="js/main.js"></script> 
+</body>
+</html> 
+
+
+
+
+
+
+
+
+
